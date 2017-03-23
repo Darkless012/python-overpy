@@ -8,8 +8,8 @@ about = {}
 with open(os.path.join(base_dir, "overpy", "__about__.py")) as f:
     exec(f.read(), about)
 
-with open(os.path.join(base_dir, "README.rst")) as f:
-    long_description = f.read()
+#with open(os.path.join(base_dir, "README.rst")) as f:
+#    long_description = f.read()
 
 setup(
     name=about["__title__"],
