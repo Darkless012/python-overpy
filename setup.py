@@ -16,7 +16,7 @@ setup(
     version=about["__version__"],
 
     description=about["__summary__"],
-    long_description=long_description,
+    long_description="long_description",
     license=about["__license__"],
     url=about["__uri__"],
 
